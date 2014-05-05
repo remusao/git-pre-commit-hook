@@ -14,6 +14,8 @@ def read(*parts):
 
 setup(
     name='git-pre-commit-hook',
+    description='pre-commit hook for Git',
+    long_description=read('README.rst'),
     version='0.0.1',
     license='MIT',
     author='Evgeny Vereshchagin',

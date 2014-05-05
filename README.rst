@@ -21,6 +21,7 @@ Features:
 * Work with index contents instead of working copy.
 * Plugin architecture: adding new checks is easy.
 * Builtin plugins for:
+
   * validate json files
   * validate files with flake8
   * check filesize
@@ -33,6 +34,7 @@ Install hook to current Git-repository::
   git-pre-commit-hook install --plugin flake8 --plugin json --plugin file_size
 
 Installed hook rejects commits:
+
 * if any file has size greater than 10MB
 * if files with .json extension contains invalid JSON
 * if Python-code doesn't pass check with flake8

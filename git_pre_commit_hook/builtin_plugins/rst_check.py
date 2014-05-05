@@ -1,3 +1,4 @@
+"""Check that files contains valid ReStructuredText."""
 import os
 import fnmatch
 import restructuredtext_lint

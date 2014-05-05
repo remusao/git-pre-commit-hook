@@ -25,6 +25,7 @@ setup(
     install_requires=[
         'git-pre-commit-hook-utils',
         'flake8',
+        'restructuredtext_lint',
     ],
     entry_points={
         'console_scripts': [
@@ -34,6 +35,7 @@ setup(
             'file_size=git_pre_commit_hook.builtin_plugins.file_size_check',
             'json=git_pre_commit_hook.builtin_plugins.json_check',
             'flake8=git_pre_commit_hook.builtin_plugins.flake8_check',
+            'rst=git_pre_commit_hook.builtin_plugins.rst_check',
         ],
     }
 )

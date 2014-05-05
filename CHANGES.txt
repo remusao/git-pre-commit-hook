@@ -1,3 +1,9 @@
+**0.0.3**
+
+
+* Add *.yaml files checker
+
+
 **0.0.2**
 
 

@@ -23,7 +23,8 @@ Features:
 * Builtin plugins for:
 
   * validate json files
-  * validate files with flake8
+  * validate Python-code with flake8
+  * validate .rst files
   * check filesize
 
 Examples
@@ -31,13 +32,18 @@ Examples
 
 Install hook to current Git-repository::
 
-  git-pre-commit-hook install --plugin flake8 --plugin json --plugin file_size
+  git-pre-commit-hook install \
+    --plugin flake8 \
+    --plugin json \
+    --plugin file_size \
+    --plugin rst
 
 Installed hook rejects commits:
 
 * if any file has size greater than 10MB
 * if files with .json extension contains invalid JSON
 * if Python-code doesn't pass check with flake8
+* if files with .rst extension contains invalid RST
 
 List available plugins::
 

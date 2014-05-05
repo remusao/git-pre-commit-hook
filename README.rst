@@ -25,6 +25,7 @@ Features:
   * validate json files
   * validate Python-code with flake8
   * validate .rst files
+  * validate .yaml files
   * check filesize
 
 Examples
@@ -36,7 +37,8 @@ Install hook to current Git-repository::
     --plugin flake8 \
     --plugin json \
     --plugin file_size \
-    --plugin rst
+    --plugin rst \
+    --plugin yaml
 
 Installed hook rejects commits:
 
@@ -44,6 +46,7 @@ Installed hook rejects commits:
 * if files with .json extension contains invalid JSON
 * if Python-code doesn't pass check with flake8
 * if files with .rst extension contains invalid RST
+* if files with .yaml extension contains invalid YAML
 
 List available plugins::
 

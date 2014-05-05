@@ -26,6 +26,7 @@ setup(
         'git-pre-commit-hook-utils',
         'flake8',
         'restructuredtext_lint',
+        'PyYAML',
     ],
     entry_points={
         'console_scripts': [
@@ -36,6 +37,7 @@ setup(
             'json=git_pre_commit_hook.builtin_plugins.json_check',
             'flake8=git_pre_commit_hook.builtin_plugins.flake8_check',
             'rst=git_pre_commit_hook.builtin_plugins.rst_check',
+            'yaml=git_pre_commit_hook.builtin_plugins.yaml_check',
         ],
     }
 )

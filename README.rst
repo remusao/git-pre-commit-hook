@@ -23,7 +23,7 @@ Features:
 * Builtin plugins for:
 
   * validate json files
-  * validate Python-code with flake8
+  * validate Python-code with flake8 (with pep8-naming)
   * validate .rst files
   * validate .yaml files
   * check filesize
@@ -44,7 +44,7 @@ Installed hook rejects commits:
 
 * if any file has size greater than 10MB
 * if files with .json extension contains invalid JSON
-* if Python-code doesn't pass check with flake8
+* if Python-code doesn't pass check with flake8 (with pep8-naming)
 * if files with .rst extension contains invalid RST
 * if files with .yaml extension contains invalid YAML
 

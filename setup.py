@@ -25,6 +25,7 @@ setup(
     install_requires=[
         'git-pre-commit-hook-utils',
         'flake8',
+        'pep8-naming',
         'restructuredtext_lint',
         'PyYAML',
     ],

@@ -16,7 +16,7 @@ setup(
     name='git-pre-commit-hook',
     description='pre-commit hook for Git',
     long_description=read('README.rst'),
-    version='0.0.4',
+    version='0.0.5',
     license='MIT',
     author='Evgeny Vereshchagin',
     author_email='evvers@ya.ru',

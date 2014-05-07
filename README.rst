@@ -25,6 +25,10 @@ Features
   * validate json files
   * validate Python-code with
     `flake8 <https://pypi.python.org/pypi/flake8/>`_
+    (
+    `mccabe plugin <https://pypi.python.org/pypi/mccabe/>`_
+    is enabled
+    )
     and
     `pep8-naming <https://pypi.python.org/pypi/pep8-naming/>`_
   * validate .rst files with

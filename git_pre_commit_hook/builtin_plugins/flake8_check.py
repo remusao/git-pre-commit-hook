@@ -5,6 +5,7 @@ import re
 
 DEFAULTS = {
     'ignore': '',
+    'complexity': '10',
 }
 
 
@@ -19,6 +20,7 @@ def check(file_staged_for_commit, options):
             ignore=(
                 c for c in options.flake8_ignore.split(',') if c
             ),
+            complexity=int(options.flake8_complexity),
         )
         return status == 0
     else:

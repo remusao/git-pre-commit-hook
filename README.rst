@@ -13,7 +13,7 @@ with these commands::
   $ pip install --upgrade git-pre-commit-hook
   $ pip uninstall git-pre-commit-hook
 
-Features:
+Features
 ---------
 
 * Work fine with initial commit.
@@ -23,9 +23,13 @@ Features:
 * Builtin plugins for:
 
   * validate json files
-  * validate Python-code with flake8 (with pep8-naming)
-  * validate .rst files
-  * validate .yaml files
+  * validate Python-code with
+    `flake8 <https://pypi.python.org/pypi/flake8/>`_
+    and
+    `pep8-naming <https://pypi.python.org/pypi/pep8-naming/>`_
+  * validate .rst files with
+    `restructuredtext_lint <https://pypi.python.org/pypi/restructuredtext_lint`_
+  * validate .yaml files with `PyYAML <https://pypi.python.org/pypi/PyYAML>`_
   * check filesize
 
 Examples

@@ -40,5 +40,14 @@ setup(
             'rst=git_pre_commit_hook.builtin_plugins.rst_check',
             'yaml=git_pre_commit_hook.builtin_plugins.yaml_check',
         ],
-    }
+    },
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Software Development :: Quality Assurance',
+    ],
+    keywords='git pre-commit hook pep8 pep8-naming flake8 mccabe',
 )

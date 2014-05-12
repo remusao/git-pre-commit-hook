@@ -1,3 +1,7 @@
+**0.0.8**
+
+* Add frosted checker
+
 **0.0.7**
 
 * By default pep8 ignores E226

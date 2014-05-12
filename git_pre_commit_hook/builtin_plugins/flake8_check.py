@@ -4,7 +4,7 @@ import re
 
 
 DEFAULTS = {
-    'ignore': '',
+    'ignore': 'E226',
     'complexity': '10',
 }
 

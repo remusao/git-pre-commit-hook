@@ -45,6 +45,7 @@ Install hook to current Git-repository::
 
   git-pre-commit-hook install \
     --plugin flake8 \
+    --plugin frosted \
     --plugin json \
     --plugin file_size \
     --plugin rst \
@@ -55,6 +56,7 @@ Installed hook rejects commits:
 * if any file has size greater than 10MB
 * if files with .json extension contains invalid JSON
 * if Python-code doesn't pass check with flake8 (with pep8-naming)
+* if Python-code doesn't pass check with frosted
 * if files with .rst extension contains invalid RST
 * if files with .yaml extension contains invalid YAML
 

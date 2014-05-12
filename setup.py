@@ -25,6 +25,7 @@ setup(
     install_requires=[
         'git-pre-commit-hook-utils',
         'flake8',
+        'frosted',
         'pep8-naming',
         'restructuredtext_lint',
         'PyYAML',
@@ -39,6 +40,7 @@ setup(
             'flake8=git_pre_commit_hook.builtin_plugins.flake8_check',
             'rst=git_pre_commit_hook.builtin_plugins.rst_check',
             'yaml=git_pre_commit_hook.builtin_plugins.yaml_check',
+            'frosted=git_pre_commit_hook.builtin_plugins.frosted_check',
         ],
     },
     classifiers=[

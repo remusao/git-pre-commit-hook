@@ -31,6 +31,8 @@ Features
     )
     and
     `pep8-naming <https://pypi.python.org/pypi/pep8-naming/>`_
+  * validate Python-code with
+    `frosted <https://pypi.python.org/pypi/frosted/>`_
   * validate .rst files with
     `restructuredtext_lint <https://pypi.python.org/pypi/restructuredtext_lint>`_
   * validate .yaml files with `PyYAML <https://pypi.python.org/pypi/PyYAML>`_

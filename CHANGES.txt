@@ -1,3 +1,7 @@
+**0.0.7**
+
+* By default pep8 ignores E226
+
 **0.0.6**
 
 * By default mccabe plugin is enabled

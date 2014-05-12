@@ -51,5 +51,5 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Quality Assurance',
     ],
-    keywords='git pre-commit hook pep8 pep8-naming flake8 mccabe',
+    keywords='git pre-commit hook pep8 pep8-naming flake8 mccabe frosted',
 )

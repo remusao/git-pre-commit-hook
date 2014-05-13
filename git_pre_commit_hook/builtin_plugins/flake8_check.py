@@ -5,7 +5,9 @@ import re
 
 DEFAULTS = {
     'ignore': 'E226',
-    'complexity': '10',
+    # TODO (evvers@ya.ru): Change complexity to 11 when mccabe=0.2.2 released
+    # https://github.com/flintwork/mccabe/issues/5
+    'complexity': '12'
 }
 
 

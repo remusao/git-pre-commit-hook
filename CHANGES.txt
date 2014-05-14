@@ -1,3 +1,7 @@
+**0.0.9**
+
+* By default mccabe max-complexity=12
+
 **0.0.8**
 
 * Add frosted checker

@@ -71,7 +71,9 @@ Contributing
 ------------
 
 Fork `git-pre-commit-hook <https://github.com/evvers/git-pre-commit-hook>`_
+
 Clone your fork
+
 Install tox::
 
   pip install tox
@@ -82,6 +84,7 @@ Create development environment::
   source devenv/bin/activate
 
 Edit code
+
 Run tests::
 
   tox

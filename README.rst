@@ -1,7 +1,5 @@
-git-pre-commit-hook
-===================
-
-git-pre-commit-hook - pre-commit hook for Git.
+Hook that blocks bad commits.
+Useful for Python-development.
 
 Installation
 ------------
@@ -68,6 +66,27 @@ Show information about plugin::
 
   git-pre-commit-hook show-plugin-info json
 
+
+Contributing
+------------
+
+Fork `git-pre-commit-hook <https://github.com/evvers/git-pre-commit-hook>`_
+Clone your fork
+Install tox::
+
+  pip install tox
+
+Create development environment::
+
+  tox -e devenv
+  source devenv/bin/activate
+
+Edit code
+Run tests::
+
+  tox
+
+Send pull request
 
 Links
 -----

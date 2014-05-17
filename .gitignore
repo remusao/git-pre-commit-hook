@@ -15,3 +15,8 @@ pip-delete-this-directory.txt
 # Sphinx documentation
 docs/_build/
 
+# Testing tools
+.tox/
+
+# Development virtualenv
+devenv/

@@ -70,26 +70,26 @@ Show information about plugin::
 Contributing
 ------------
 
-Fork `git-pre-commit-hook <https://github.com/evvers/git-pre-commit-hook>`_
+1. Fork `git-pre-commit-hook <https://github.com/evvers/git-pre-commit-hook>`_
 
-Clone your fork
+2. Clone your fork
 
-Install tox::
+3. Install tox::
 
-  pip install tox
+    pip install tox
 
-Create development environment::
+4. Create development environment::
 
-  tox -e devenv
-  source devenv/bin/activate
+    tox -e devenv
+    source devenv/bin/activate
 
-Edit code
+5. Edit code
 
-Run tests::
+6. Run tests::
 
-  tox
+    tox
 
-Send pull request
+7. Send pull request
 
 Links
 -----

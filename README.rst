@@ -33,6 +33,8 @@ Features
     `frosted <https://pypi.python.org/pypi/frosted/>`_
   * validate .rst files with
     `restructuredtext_lint <https://pypi.python.org/pypi/restructuredtext_lint>`_
+  * validate .ini files with
+    `configparser <https://docs.python.org/2.7/library/configparser.html>`_
   * validate .yaml files with `PyYAML <https://pypi.python.org/pypi/PyYAML>`_
   * check filesize
 

@@ -1,3 +1,7 @@
+**0.0.10**
+
+* Add .ini files checker
+
 **0.0.9**
 
 * By default mccabe max-complexity=12

@@ -37,7 +37,7 @@ Features
     `configparser <https://docs.python.org/2.7/library/configparser.html>`_
   * validate .yaml files with `PyYAML <https://pypi.python.org/pypi/PyYAML>`_
   * validate .xml files with
-    `xml.etree.ElementTree <https://docs.python.org/2.7/library/xml.etree.elementtree.html`
+    `xml.etree.ElementTree <https://docs.python.org/2.7/library/xml.etree.elementtree.html>`_
   * check filesize
 
 Examples

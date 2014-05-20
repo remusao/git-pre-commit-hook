@@ -42,6 +42,7 @@ setup(
             'yaml=git_pre_commit_hook.builtin_plugins.yaml_check',
             'frosted=git_pre_commit_hook.builtin_plugins.frosted_check',
             'ini=git_pre_commit_hook.builtin_plugins.ini_check',
+            'xml=git_pre_commit_hook.builtin_plugins.xml_check',
         ],
     },
     classifiers=[

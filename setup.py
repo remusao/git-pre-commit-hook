@@ -27,7 +27,7 @@ setup(
         'flake8',
         'frosted',
         'pep8-naming',
-        'restructuredtext_lint',
+        'restructuredtext_lint >= 0.6.0',
         'PyYAML',
     ],
     entry_points={

@@ -23,7 +23,7 @@ setup(
     url='https://github.com/evvers/git-pre-commit-hook',
     packages=find_packages(),
     install_requires=[
-        'git-pre-commit-hook-utils >= 0.0.4',
+        'git-pre-commit-hook-utils >= 0.0.5',
         'flake8',
         'frosted',
         'pep8-naming',

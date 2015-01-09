@@ -31,6 +31,8 @@ Features
     `pep8-naming <https://pypi.python.org/pypi/pep8-naming/>`_
   * validate Python-code with
     `frosted <https://pypi.python.org/pypi/frosted/>`_
+  * validate Python-code with
+    `pylint <https://pypi.python.org/pypi/pylint/>`_
   * validate .rst files with
     `restructuredtext_lint <https://pypi.python.org/pypi/restructuredtext_lint>`_
   * validate .ini files with
@@ -51,13 +53,15 @@ Install hook to current Git-repository::
     --plugin json \
     --plugin file_size \
     --plugin rst \
-    --plugin yaml
+    --plugin yaml \
+    --plugin pylint
 
 Installed hook rejects commits:
 
 * if any file has size greater than 10MB
 * if files with .json extension contains invalid JSON
 * if Python-code doesn't pass check with flake8 (with pep8-naming)
+* if Python-code doesn't pass check with pylint
 * if Python-code doesn't pass check with frosted
 * if files with .rst extension contains invalid RST
 * if files with .yaml extension contains invalid YAML

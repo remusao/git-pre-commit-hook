@@ -1,3 +1,6 @@
+git-pre-commit-hook
+===================
+
 Hook that blocks bad commits.
 Useful for Python-development.
 

@@ -17,5 +17,8 @@ def check(file_staged_for_commit, options):
         reporter=TextReporter(pylint_output),
         exit=False)
     pylint_output = pylint_output.getvalue().strip()
-    print(pylint_output)
-    return pylint_output == ''
+    if pylint_output:
+        print(pylint_output)
+        return False
+    else:
+        return True

@@ -29,6 +29,7 @@ setup(
         'pep8-naming',
         'restructuredtext_lint >= 0.6.0',
         'PyYAML',
+        'pylint'
     ],
     entry_points={
         'console_scripts': [
@@ -43,6 +44,7 @@ setup(
             'frosted=git_pre_commit_hook.builtin_plugins.frosted_check',
             'ini=git_pre_commit_hook.builtin_plugins.ini_check',
             'xml=git_pre_commit_hook.builtin_plugins.xml_check',
+            'pylint=git_pre_commit_hook.builtin_plugins.pylint_check',
         ],
     },
     classifiers=[
